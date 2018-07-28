@@ -1,0 +1,20 @@
+{
+  "name": "tiberius-s.github.io",
+  "description": "personal site",
+  "license": "MIT",
+  "homepage": "https://tiberius-s.github.io",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "deploy": "gatsby build && gh-pages -d public master"
+  },
+  "dependencies": {
+    "gatsby": "next",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}
