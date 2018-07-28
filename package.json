@@ -2,12 +2,12 @@
   "name": "tiberius-s.github.io",
   "description": "personal site",
   "license": "MIT",
-  "homepage": "https://tiberius-s.github.io",
+  "homepage": "https://tiberius-s.github.io/",
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "deploy": "gatsby build && gh-pages -d public master"
+    "deploy": "npm run build && gh-pages -d public -b master"
   },
   "dependencies": {
     "gatsby": "next",
