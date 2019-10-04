@@ -10,9 +10,11 @@
     "deploy": "npm run build && gh-pages -d public -b master"
   },
   "dependencies": {
-    "gatsby": "next",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2"
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "gatsby": "^2.15.28",
+    "gatsby-cli": "^2.7.53",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
   },
   "devDependencies": {
     "gh-pages": "^1.2.0"
